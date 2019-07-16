@@ -25,4 +25,5 @@ class ofApp : public ofBaseApp{
         void mouseScrolled( ofMouseEventArgs & e );
         ofEventListener events;
         ofxScrollBox scrollBox;
+        vector<string> rows;
 };
